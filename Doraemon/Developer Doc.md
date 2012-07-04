@@ -111,32 +111,32 @@
 
 
     进入开发者版本的前提是必须注册豌豆荚账号，并在豌豆荚Windows客户端登录：
-![register](登录豌豆荚Windows客户端)
+![登录豌豆荚Windows客户端][register]
 
 ### 4.2 进入开发者模式
-![settings_1](进入开发者模式)
-![settings_2](进入开发者模式)
+![进入开发者模式][settings_1]
+![进入开发者模式][settings_2]
 
 ### 4.3 管理扩展
-![manage](进入管理扩展页面)
+![进入管理扩展页面][manage]
 
 ### 4.4 加载本地扩展
-![load_extensions](加载本地扩展)
+![加载本地扩展][load_extensions]
 
 ### 4.5 调试
-![debug_1](页面调试)
-![debug_2](页面调试)
+![页面调试][debug_1]
+![页面调试][debug_2]
 
 ### 4.6 刷新扩展
-![refresh_extension](刷新扩展)
+![刷新扩展][refresh_extension]
 
 ### 4.7 打包扩展
-![package_extension](打包扩展)
+![打包扩展][package_extension]
 
 ### 4.7 扩展上线
     开发者扩展开发完毕，可以提交到豌豆荚扩展中心：http://developer.wandoujia.com/
     扩展的上线流程如下：
-![extension_online](打包扩展)
+![打包扩展][extension_online]
 
 * 注：
 
