@@ -158,13 +158,13 @@
   [Download Link]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
   [MicroData]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
   [Wandoujia Supported Specifications]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Wandoujia%20Supported%20Specifications.md
-  [register]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg
-  [settings_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg
-  [settings_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg
-  [manage]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg
-  [load_extensions]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg
-  [debug_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg
-  [debug_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg
-  [refresh_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg
-  [package_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg
-  [extension_online]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg
+  [register]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg?raw=true
+  [settings_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg?raw=true
+  [settings_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg?raw=true
+  [manage]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg?raw=true
+  [load_extensions]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg?raw=true
+  [debug_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg?raw=true
+  [debug_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg?raw=true
+  [refresh_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg?raw=true
+  [package_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg?raw=true
+  [extension_online]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg?raw=true
