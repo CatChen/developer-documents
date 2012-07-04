@@ -12,18 +12,18 @@
 
     每一个扩展对应着一个内容站。扩展系统使开发者有能力快速、大量的提供适合展现在豌豆荚的内容。
 
-### 如果您是网站站长
+### 2.1 如果您是网站站长
 * MicroData介绍：文档《[MicroData]》
 * Manifest.json介绍：文档《[manifest files]》
 
-### 如果您是第三方开发者
+### 2.2 如果您是第三方开发者
 * Manifest.json介绍：文档《[manifest files]》
 * Download介绍：文档《[Download Link]》
 
-### 目前扩展中webkit/css支持的特性（通用）
+### 2.3 目前扩展中webkit/css支持的特性（通用）
 * 《[Wandoujia Supported Specifications]》
 
-### 开发扩展系统时Content Script的Guideline
+### 2.4 开发扩展系统时Content Script的Guideline
 * 页面宽度修改为适应豌豆荚的默认宽度：780px（考虑会有滚动条，建议控制在760px内）
 
 * 页面中的主要内容可调用豌豆荚的 Download API （可下载资源应该遵循microdata中定义的格式，否则无法下载）进行下载，不支持的部分应打开外部浏览器或予以隐藏
@@ -52,7 +52,6 @@
 
 3. 百宝袋扩展Sample
 ---------
-### 3.1 按照《manifest files》文档写manifest.json文件，以豌豆荚应用搜索为例（实际操作中去掉注释）
     {
         "name": "应用搜索",             // 默认将会是豌豆荚侧边栏中显示的名称
         "version": "1.0.0.0",
@@ -99,18 +98,11 @@
         }
     }
 
-### 3.2 打包
-
-### 3.3 上传扩展包
-* http://www.wandoujia.com/webstore/dev
-
 4. 百宝袋开发工具介绍
 -----------
 
 ### 4.1 前提
-
-
-    进入开发者版本的前提是必须注册豌豆荚账号，并在豌豆荚Windows客户端登录：
+进入开发者版本的前提是必须注册豌豆荚账号，并在豌豆荚Windows客户端登录：
 ![登录豌豆荚Windows客户端][register]
 
 ### 4.2 进入开发者模式
@@ -134,8 +126,9 @@
 ![打包扩展][package_extension]
 
 ### 4.7 扩展上线
-    开发者扩展开发完毕，可以提交到豌豆荚扩展中心：http://developer.wandoujia.com/
-    扩展的上线流程如下：
+* 开发者扩展开发完毕，可以提交到豌豆荚扩展中心：http://developer.wandoujia.com/
+* 扩展的上线流程如下：
+
 ![打包扩展][extension_online]
 
 * 注：
