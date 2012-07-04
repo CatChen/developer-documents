@@ -111,32 +111,32 @@
 
 
     进入开发者版本的前提是必须注册豌豆荚账号，并在豌豆荚Windows客户端登录：
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg](登录豌豆荚Windows客户端)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg)[登录豌豆荚Windows客户端]
 
 ### 4.2 进入开发者模式
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg](进入开发者模式)
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg](进入开发者模式)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg)[进入开发者模式]
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg)[进入开发者模式]
 
 ### 4.3 管理扩展
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg](进入管理扩展页面)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg)[进入管理扩展页面]
 
 ### 4.4 加载本地扩展
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg](加载本地扩展)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg)[加载本地扩展]
 
 ### 4.5 调试
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg](页面调试)
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg](页面调试)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg)[页面调试]
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg)[页面调试]
 
 ### 4.6 刷新扩展
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg](刷新扩展)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg)[刷新扩展]
 
 ### 4.7 打包扩展
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg](打包扩展)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg)[打包扩展]
 
 ### 4.7 扩展上线
     开发者扩展开发完毕，可以提交到豌豆荚扩展中心：http://developer.wandoujia.com/
     扩展的上线流程如下：
-![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg](打包扩展)
+!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg)[打包扩展]
 
 * 注：
 
