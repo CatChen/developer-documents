@@ -12,18 +12,18 @@
 
     每一个扩展对应着一个内容站。扩展系统使开发者有能力快速、大量的提供适合展现在豌豆荚的内容。
 
-#### 如果您是网站站长
+### 如果您是网站站长
 * MicroData介绍：文档《[MicroData]》
 * Manifest.json介绍：文档《[manifest files]》
 
-#### 如果您是第三方开发者
+### 如果您是第三方开发者
 * Manifest.json介绍：文档《[manifest files]》
 * Download介绍：文档《[Download Link]》
 
-#### 目前扩展中webkit/css支持的特性（通用）
+### 目前扩展中webkit/css支持的特性（通用）
 * 《[Wandoujia Supported Specifications]》
 
-#### 开发扩展系统时Content Script的Guideline
+### 开发扩展系统时Content Script的Guideline
 * 页面宽度修改为适应豌豆荚的默认宽度：780px（考虑会有滚动条，建议控制在760px内）
 
 * 页面中的主要内容可调用豌豆荚的 Download API （可下载资源应该遵循microdata中定义的格式，否则无法下载）进行下载，不支持的部分应打开外部浏览器或予以隐藏
@@ -52,7 +52,7 @@
 
 3. 百宝袋扩展Sample
 ---------
-#### 3.1 按照《manifest files》文档写manifest.json文件，以豌豆荚应用搜索为例（实际操作中去掉注释）
+### 3.1 按照《manifest files》文档写manifest.json文件，以豌豆荚应用搜索为例（实际操作中去掉注释）
     {
         "name": "应用搜索",             // 默认将会是豌豆荚侧边栏中显示的名称
         "version": "1.0.0.0",
@@ -99,13 +99,60 @@
         }
     }
 
-#### 3.2 打包
+### 3.2 打包
 
-#### 3.3 上传扩展包
+### 3.3 上传扩展包
 * http://www.wandoujia.com/webstore/dev
 
 4. 百宝袋开发工具介绍
 -----------
+
+### 4.1 前提
+
+
+    进入开发者版本的前提是必须注册豌豆荚账号，并在豌豆荚Windows客户端登录：
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg](登录豌豆荚Windows客户端)
+
+### 4.2 进入开发者模式
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg](进入开发者模式)
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg](进入开发者模式)
+
+### 4.3 管理扩展
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg](进入管理扩展页面)
+
+### 4.4 加载本地扩展
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg](加载本地扩展)
+
+### 4.5 调试
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg](页面调试)
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg](页面调试)
+
+### 4.6 刷新扩展
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg](刷新扩展)
+
+### 4.7 打包扩展
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg](打包扩展)
+
+### 4.7 扩展上线
+    开发者扩展开发完毕，可以提交到豌豆荚扩展中心：http://developer.wandoujia.com/
+    扩展的上线流程如下：
+![https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg](打包扩展)
+
+* 注：
+
+ - 第一次提交扩展包后，豌豆荚的审核时间是1～3天，审核通过之后会在当天上线。
+ - 扩展包因失效（改版、服务不稳定、下线、法律原因）或违反豌豆荚规定下线，待扩展包恢复正常之后，须观察24小时，开发者
+   需按上线流程重新申请上线。
+ - 开发者将扩展包升级之后，需要重新走审核流程。
+
+* 审核及扩展下线原则：
+ - 扩展的内容包括色情，淫秽，擦边球等成人内容
+ - 扩展的内容涉及或影射政治敏感信息及内容
+ - 扩展内含病毒
+ - 扩展的内容存在误导欺骗用户的行为或者乱扣费、暗扣费
+ - 扩展存在严重的bug，不能够正常使用
+ - 扩展未遵守豌豆荚Content Script的Guideline规范
+ - 扩展因内容站改版、开发者下线、法律限制等导致失效
 
   [manifest files]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Manifest%20Files.md
   [Download Link]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
