@@ -111,32 +111,32 @@
 
 
     进入开发者版本的前提是必须注册豌豆荚账号，并在豌豆荚Windows客户端登录：
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg)[登录豌豆荚Windows客户端]
+![register](登录豌豆荚Windows客户端)
 
 ### 4.2 进入开发者模式
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg)[进入开发者模式]
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg)[进入开发者模式]
+![settings_1](进入开发者模式)
+![settings_2](进入开发者模式)
 
 ### 4.3 管理扩展
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg)[进入管理扩展页面]
+![manage](进入管理扩展页面)
 
 ### 4.4 加载本地扩展
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg)[加载本地扩展]
+![load_extensions](加载本地扩展)
 
 ### 4.5 调试
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg)[页面调试]
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg)[页面调试]
+![debug_1](页面调试)
+![debug_2](页面调试)
 
 ### 4.6 刷新扩展
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg)[刷新扩展]
+![refresh_extension](刷新扩展)
 
 ### 4.7 打包扩展
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg)[打包扩展]
+![package_extension](打包扩展)
 
 ### 4.7 扩展上线
     开发者扩展开发完毕，可以提交到豌豆荚扩展中心：http://developer.wandoujia.com/
     扩展的上线流程如下：
-!(https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg)[打包扩展]
+![extension_online](打包扩展)
 
 * 注：
 
@@ -158,3 +158,13 @@
   [Download Link]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
   [MicroData]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
   [Wandoujia Supported Specifications]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Wandoujia%20Supported%20Specifications.md
+  [register]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg
+  [settings_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg
+  [settings_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg
+  [manage]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg
+  [load_extensions]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg
+  [debug_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg
+  [debug_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg
+  [refresh_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg
+  [package_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg
+  [extension_online]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg
