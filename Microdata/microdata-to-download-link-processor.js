@@ -45,6 +45,7 @@
                 hashArray.push(key + '=' +hash[key]);
             }
             
+            /* TODO: support itemid */
             link.hash = '#' + hashArray.join('&');
         }
     };
@@ -65,6 +66,7 @@
             if (getNearestScopeElement(propElement) === scopeElement) {
                 var itemProp = getItemProp(propElement);
                 if (itemProp.key) {
+                    /* TODO: need to add multiple values support instead of simple overriding existed key */
                     directItemProps[itemProp.key] = itemProp.value;
                 }
             }
@@ -76,6 +78,7 @@
         /* see Microdata standard for how to extract value from element: http://www.w3.org/TR/microdata/#values */
         var property = {};
         property.node = propElement;
+        /* TODO: support multiple keys within one itemprop attribute */
         property.key = propElement.getAttribute('itemprop');
         
         if (propElement.hasAttribute('itemscope')) {
@@ -109,7 +112,7 @@
                     property.value = propElement.value;
                     break;
                 case 'TIME':
-                    property.value = propElement.getAttribute('datetime');
+                    property.value = propElement.getAttribute('datetime') || propElement.textContent;
                     break;
                 default:
                     property.value = propElement.textContent;
