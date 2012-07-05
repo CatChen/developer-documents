@@ -113,14 +113,16 @@
 ![进入管理扩展页面][manage]
 
 ### 4.4 加载本地扩展
-![加载本地扩展][load_extensions]
+![加载本地扩展][load_extensions_1]
+![加载本地扩展][load_extensions_2]
+![加载本地扩展][load_extensions_3]
 
 ### 4.5 调试
 ![页面调试][debug_1]
 ![页面调试][debug_2]
 
 ### 4.6 刷新扩展
-![刷新扩展][refresh_extension]
+![刷新扩展][reload_extension]
 
 ### 4.7 打包扩展
 ![打包扩展][package_extension]
@@ -155,9 +157,11 @@
   [settings_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg?raw=true
   [settings_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg?raw=true
   [manage]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/manage.jpg?raw=true
-  [load_extensions]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions.jpg?raw=true
+  [load_extensions_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions_1.jpg?raw=true
+  [load_extensions_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions_2.jpg?raw=true
+  [load_extensions_3]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/load_extensions_3.jpg?raw=true
   [debug_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_1.jpg?raw=true
   [debug_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/debug_2.jpg?raw=true
-  [refresh_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/refresh_extension.jpg?raw=true
+  [reload_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/reload_extension.jpg?raw=true
   [package_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg?raw=true
   [extension_online]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg?raw=true
