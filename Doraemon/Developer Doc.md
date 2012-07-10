@@ -156,7 +156,7 @@
 
   [manifest files]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Manifest%20Files.md
   [Download Link]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
-  [MicroData]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
+  [MicroData]: https://github.com/wandoulabs/developer-documents/blob/master/Microdata/App%20Microdata.md
   [Wandoujia Supported Specifications]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Wandoujia%20Supported%20Specifications.md
   [register]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg?raw=true
   [settings_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg?raw=true
