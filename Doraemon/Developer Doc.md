@@ -70,8 +70,8 @@
         }
         ],
         "icons": {
-	    "12": "icon12.png",
-	    "72": "icon72.png"
+            "12": "icon12.png",
+            "72": "icon72.png"
         },
         "app": {
             "launch": {
@@ -102,10 +102,11 @@
         }
     }
 
-如果manifest.json文件中用到了其他文件，比如×.js, *.css等，也需要在这个目录中创建这些文件。
+如果manifest.json文件中用到了其他文件，比如*.js, *.css等，也需要在这个目录中创建这些文件。
 这些文件可以使用相对路径和绝对路径。
 
 本例中需要的文件列表如下：
+
     manifest.json
     jquery-1.7.min.js
     changeDownload.js
