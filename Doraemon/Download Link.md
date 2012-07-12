@@ -4,7 +4,7 @@
 
 这个文档说明豌豆荚 Windows 版百宝袋如何识别下载链接，以及如何从下载链接中提取目标文件的相关信息（meta data）。
 
-一个典型的百宝袋下载链接应该是这样子的：（请注意提供给豌豆荚 Windows 版使用的参数键值对放在 `#` 井号后面，而非 `?` 问号后面。）
+一个典型的百宝袋下载链接应该是这样子的：（请注意提供给豌豆荚 Windows 版使用的参数键值对放在 `#` 井号后面，且不需要做url encoding，而非 `?` 问号后面。）
 
 	<a href="app.apk#name=app&image=%2Fimages%2Fapp-icon.png" rel="download">Download</a>
 
@@ -12,7 +12,7 @@
 
 ## download="filename.ext"
 
-`download="filename.ext"` 属性向豌豆荚表明这个链接的目标用于下载，同时给出下载时所建议使用的文件名。
+`download="filename.ext"` 属性向豌豆荚表明这个链接的目标用于下载，同时给出下载时所建议使用的文件名。(不需要做url encoding)
 
 在一般情况下，豌豆荚会根据链接目标内容的 content-type 属性做出判断，到底应该是下载还是直接展示。但如果要想要下载的内容是纯文本或者 HTML，豌豆荚的默认行为会是直接展示，这时候可以通过 `download="filename.ext"` 来提示豌豆荚将默认行为变更为下载，同时通过属性取值（`"filename.ext"` 部分）给出建议使用的文件名。对于默认行为已经是下载的链接目标，这个属性同样能用于给出建议使用的文件名。
 
@@ -34,13 +34,13 @@ _DEPRECATED!_
 
 ### name
 
-名称。会显示在资源管理界面和下载任务管理器。
+名称。会显示在资源管理界面和下载任务管理器。(不需要做url encoding)
 
 如果下载链接所在的网页上使用了 microdata，在锚点不提供 `name` 属性时，该属性从同一个 `itemscope` 内的 `*[itemprop=name]` 元素上获取。
 
 ### image
 
-图标。会显示在资源管理界面和下载任务管理器。
+图标。会显示在资源管理界面和下载任务管理器。(不需要做url encoding)
 
 如果下载链接所在的网页上使用了 microdata，在锚点不提供 `image` 属性时，该属性从同一个 `itemscope` 内的 `*[itemprop=image]` 或 `*[itemprop=thumbnail] *[itemprop=image]` 或 `*[itemprop=thumbnailUrl]` 元素上获取。
 
@@ -62,10 +62,10 @@ _DEPRECATED!_
 
 #### filename
 
-文件名。豌豆荚在考虑文件保存为什么文件名时，会参考这一参数。如果这一参数不是系统（豌豆荚 Windows 版需要同时考虑 Windows 和 Android）有效的文件名，则豌豆荚会做出必要的调整。
+文件名。豌豆荚在考虑文件保存为什么文件名时，会参考这一参数。如果这一参数不是系统（豌豆荚 Windows 版需要同时考虑 Windows 和 Android）有效的文件名，则豌豆荚会做出必要的调整。(不需要做url encoding)
 
 需要注意的是，在 `filename` 设置的文件名会覆盖在 `download` 设置的文件名，但 HTTP header 设置的文件名依然有最高优先级。
 
 #### filepath
 
-文件路径。豌豆荚在考虑文件保存路径时，会参考这一参数。由于下载资源是提供给 Android 设备使用的，所以这里的文件路径应该基于 Android 文件系统。
+文件路径。豌豆荚在考虑文件保存路径时，会参考这一参数。由于下载资源是提供给 Android 设备使用的，所以这里的文件路径应该基于 Android 文件系统。(不需要做url encoding)
