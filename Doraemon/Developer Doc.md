@@ -57,9 +57,9 @@
 
 
     {
-        "name": "应用搜索",             // 默认将会是豌豆荚侧边栏中显示的名称
+        "name": "应用搜索",
         "version": "1.0.0.0",
-        "description": "把豌豆荚应用搜索老的下载API转化成新的下载方式。",
+        "description": "豌豆荚应用搜索.",
         "content_scripts": [
         {
             "matches":["http://*.wandoujia.com/*", "http://*.wandou.in/*"],
@@ -69,18 +69,18 @@
             "all_frames":false
         }
         ],
+        "icons": {
+	    "12": "icon12.png",
+	    "72": "icon72.png"
+        },
         "app": {
             "launch": {
-                "web_url": "http://apps.wandoujia.com/"          // 点击侧边栏之后加载的页面
-            },
-            "icons": {          // 图标
-                "12": "icon12.png",   // 侧边栏显示的图标
-                "72": "icon72.png"    // 更多市场显示时会用到的图标
-            },
-            "navigation": [        // 以下为顶部导航，最多支持8个
+                "web_url": "http://apps.wandoujia.com/"
+            }
+            "navigation": [
             {
-                "label": "全部应用",          // 顶部导航名称
-                "web_url": "http://apps.wandoujia.com/category?id=app" // 顶部导航对应的页面
+                "label": "全部应用",
+                "web_url": "http://apps.wandoujia.com/category?id=app"
             },
             {
                 "label": "全部游戏",
