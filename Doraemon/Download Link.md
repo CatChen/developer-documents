@@ -76,17 +76,39 @@ _DEPRECATED!_
 
 修改js sample：
 
+下载应用（apk）:
+
+    var m = {};
+    m.downloadUrl = url; // url
+    m.title = title; // title
+    window.externalCall('portal', 'appdownload', JSON.stringify([m]));
+
+下载电子书（txt, pdf）:
+
     var m = {};
     m.url = url; // url
     m.title = title; // title
-    window.externalCall(param_1, param_2, JSON.stringify([m]));
+    window.externalCall('portal', 'book', JSON.stringify([m]));
 
-    param_1: 'portal'
-    param_2:
-        'appdownload': apk
-        'book': 电子书
-        'api_download': 图片
-        '-musicurlarray': 音乐
-        '-videourl': 视频
+下载图片（jpg）:
+
+    var m = {};
+    m.url = url; // url
+    m.title = title; // title
+    window.externalCall('photo', 'api_download', JSON.stringify([m]));
+
+下载音乐（mp3）:
+
+    var m = {};
+    m.url = url; // url
+    m.title = title; // title
+    window.externalCall('portal', '-musicurlarray', JSON.stringify([m]));
+
+下载视频（mp4）:
+
+    var m = {};
+    m.url = url; // url
+    m.title = title; // title
+    window.externalCall('portal', '-videourl', JSON.stringify([m]));
 
 这种方式支持批量下载。
