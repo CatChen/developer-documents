@@ -111,6 +111,8 @@
     jquery-1.7.min.js
     changeDownload.js
     contentcss.css
+    icon16.png
+    icon72.png
 
 下载sample包：[sample package]
 
