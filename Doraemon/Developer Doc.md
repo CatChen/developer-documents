@@ -186,4 +186,4 @@
   [reload_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/reload_extension.jpg?raw=true
   [package_extension]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/package_extension.jpg?raw=true
   [extension_online]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/extension_online.jpg?raw=true
-  [sample package]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/files/search.wdx?raw=true
+  [sample package]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/files/search.zip?raw=true
