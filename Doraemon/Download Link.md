@@ -80,15 +80,8 @@ _DEPRECATED!_
 
     var m = {};
     m.downloadUrl = url; // url
-    m.title = title; // title
-    window.externalCall('portal', 'appdownload', JSON.stringify([m]));
-
-下载电子书（txt, pdf）:
-
-    var m = {};
-    m.url = url; // url
-    m.title = title; // title
-    window.externalCall('portal', 'book', JSON.stringify([m]));
+    m.name = name; // name
+    window.externalCall('application', 'appdownload', JSON.stringify([m]));
 
 下载图片（jpg）:
 
