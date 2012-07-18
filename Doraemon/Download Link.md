@@ -6,7 +6,7 @@
 
 一个典型的百宝袋下载链接应该是这样子的：（请注意提供给豌豆荚 Windows 版使用的参数键值对放在 `#` 井号后面，且不需要做url encoding，而非 `?` 问号后面。）
 
-	<a href="app.apk#name=app&image=%2Fimages%2Fapp-icon.png" rel="download">Download</a>
+	<a href="app.apk#name=app&icon=%2Fimages%2Fapp-icon.png" rel="download">Download</a>
 
 豌豆荚 Windows 版百宝袋会对 `a` 标签中的如下信息作出响应：
 
@@ -38,11 +38,11 @@ _DEPRECATED!_
 
 如果下载链接所在的网页上使用了 microdata，在锚点不提供 `name` 属性时，该属性从同一个 `itemscope` 内的 `*[itemprop=name]` 元素上获取。
 
-### image
+### icon
 
 图标。会显示在资源管理界面和下载任务管理器。(不需要做url encoding)
 
-如果下载链接所在的网页上使用了 microdata，在锚点不提供 `image` 属性时，该属性从同一个 `itemscope` 内的 `*[itemprop=image]` 或 `*[itemprop=thumbnail] *[itemprop=image]` 或 `*[itemprop=thumbnailUrl]` 元素上获取。
+如果下载链接所在的网页上使用了 microdata，在锚点不提供 `icon` 属性时，该属性从同一个 `itemscope` 内的 `*[itemprop=icon]` 或 `*[itemprop=thumbnail] *[itemprop=icon]` 或 `*[itemprop=thumbnailUrl]` 元素上获取。
 
 ### content-type
 
