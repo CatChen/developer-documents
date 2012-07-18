@@ -91,7 +91,7 @@
 
 媒体资源的编码格式，适用于 MediaObject 及其派生类。
 
-#### *\[itemprop=image]
+#### *\[itemprop=icon]
 
 缩略图地址，适用于任何类型的媒体。
 

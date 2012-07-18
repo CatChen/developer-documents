@@ -10,7 +10,7 @@
 ## 微格式
 
 	<div itemscope itemtype="http://schema.org/SoftwareApplication" class="download">
-		<img itemprop="image" src="https://ssl.gstatic.com/android/market/com.zeptolab.ctr.paid/hi-124-11" />
+		<img itemprop="icon" src="https://ssl.gstatic.com/android/market/com.zeptolab.ctr.paid/hi-124-11" />
 		<a itemprop="url" href="">
 			<span itemprop="name">Cut the Rope</span>
 			(<span itemprop="softwareVersion">1.3</span>)
@@ -53,7 +53,7 @@
 
 直接展示给用户看的应用描述。
 
-### *\[itemprop=image]
+### *\[itemprop=icon]
 
 直接展示给用户看的应用图标。
 
