@@ -70,38 +70,3 @@ _DEPRECATED!_
 
 文件路径。豌豆荚在考虑文件保存路径时，会参考这一参数。由于下载资源是提供给 Android 设备使用的，所以这里的文件路径应该基于 Android 文件系统。(不需要做url encoding)
 
-## 1.x 兼容性（豌豆荚2.0以上版本忽略）
-
-为了保持与之前的豌豆荚版本兼容，豌豆荚提供了下面这种下载方式（sample）：
-
-修改js sample：
-
-下载应用（apk）:
-
-    var m = {};
-    m.downloadUrl = url; // url
-    m.name = name; // name
-    window.externalCall('application', 'appdownload', JSON.stringify([m]));
-
-下载图片（jpg）:
-
-    var m = {};
-    m.url = url; // url
-    m.title = title; // title
-    window.externalCall('photo', 'api_download', JSON.stringify([m]));
-
-下载音乐（mp3）:
-
-    var m = {};
-    m.url = url; // url
-    m.title = title; // title
-    window.externalCall('portal', '-musicurlarray', JSON.stringify([m]));
-
-下载视频（mp4）:
-
-    var m = {};
-    m.url = url; // url
-    m.title = title; // title
-    window.externalCall('portal', '-videourl', JSON.stringify([m]));
-
-这种方式支持批量下载。
