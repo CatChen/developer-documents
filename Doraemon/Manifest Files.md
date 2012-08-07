@@ -178,6 +178,10 @@ JavaScript 文件何时插入，可选的值包括：`'document_start'`、`'docu
 
 控制插入内容是只插入到 `top` frame 还是所有的 frame。默认值为 `false`。
 
+#### overwrite_user_agent
+
+覆盖浏览器 user agent 名称。如果提供此参数，则在请求匹配页面及其资源时 HTTP 头部的 User-Agent 和 JavaScript 中的 `window.navigator.userAgent` 都会被覆盖为指定的值。
+
 ### homepage_url
 
 扩展首页地址。如果扩展通过扩展商店发布，则默认指向扩展商店详情页。
