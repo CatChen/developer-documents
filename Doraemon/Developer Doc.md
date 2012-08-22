@@ -13,7 +13,7 @@
 
     每一个扩展对应着一个内容站。扩展系统使开发者有能力快速、大量的提供适合展现在豌豆荚的内容。
 
-### 2.1 请开发者详细阅读以下文档
+### 2.1 开发者工程文档
 * MicroData介绍：文档《[MicroData]》
 * Manifest.json介绍：文档《[manifest files]》
 * Download介绍：文档《[Download Link]》
