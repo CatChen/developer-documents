@@ -13,18 +13,15 @@
 
     每一个扩展对应着一个内容站。扩展系统使开发者有能力快速、大量的提供适合展现在豌豆荚的内容。
 
-### 2.1 如果您是网站站长
+### 2.1 请开发者详细阅读以下文档
 * MicroData介绍：文档《[MicroData]》
-* Manifest.json介绍：文档《[manifest files]》
-
-### 2.2 如果您是第三方开发者
 * Manifest.json介绍：文档《[manifest files]》
 * Download介绍：文档《[Download Link]》
 
-### 2.3 目前扩展中webkit/css支持的特性（通用）
+### 2.2 目前扩展中webkit/css支持的特性（通用）
 * 《[Wandoujia Supported Specifications]》
 
-### 2.4 开发扩展系统时Content Script的Guideline
+### 2.3 开发扩展系统时Content Script的Guideline
 * 页面宽度修改为适应豌豆荚的默认宽度：780px（考虑会有滚动条，建议控制在760px内）
 
 * 新扩展不允许篡改已经在线上的其它开发者开发的扩展
