@@ -72,3 +72,8 @@
 ### 其他
 
 除去上述必要的属性外，其它自定义属性可以参考 [Schema.org 的文档](http://schema.org/SoftwareApplication)。
+
+
+
+  [microdata-to-download-link-processor-demo.html]：https://github.com/wandoulabs/developer-documents/blob/master/Microdata/microdata-to-download-link-processor-demo.html
+  [microdata-to-download-link-processor.js]：https://github.com/wandoulabs/developer-documents/blob/master/Microdata/microdata-to-download-link-processor.js
