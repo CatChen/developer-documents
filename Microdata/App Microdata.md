@@ -75,5 +75,5 @@
 
 
 
-  [microdata-to-download-link-processor-demo.html]：https://github.com/wandoulabs/developer-documents/blob/master/Microdata/microdata-to-download-link-processor-demo.html
-  [microdata-to-download-link-processor.js]：https://github.com/wandoulabs/developer-documents/blob/master/Microdata/microdata-to-download-link-processor.js
+  [microdata-to-download-link-processor-demo.html]:https://github.com/wandoulabs/developer-documents/blob/master/Microdata/microdata-to-download-link-processor-demo.html
+  [microdata-to-download-link-processor.js]:https://github.com/wandoulabs/developer-documents/blob/master/Microdata/microdata-to-download-link-processor.js
