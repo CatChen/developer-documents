@@ -20,8 +20,9 @@
 	</div>
 
 所有跟应用相关的操作都使用 `*[itemscope]` 标签，具体信息由 `class` 属性及里面的 `*[itemprop]` 元素给出。
-微格式sample：文档1《[microdata-to-download-link-processor-demo.html]》
-              文档2《[microdata-to-download-link-processor.js]》
+微格式sample：
+* 文档1《[microdata-to-download-link-processor-demo.html]》
+* 文档2《[microdata-to-download-link-processor.js]》
               
 
 ### class
