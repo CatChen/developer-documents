@@ -92,7 +92,7 @@
         "app": {
             "launch": {
                 "web_url": "http://apps.wandoujia.com/"
-            }
+            },
             "navigation": [
             {
                 "label": "全部应用",
