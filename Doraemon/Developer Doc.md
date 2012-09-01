@@ -20,6 +20,7 @@
 
 ### 2.2 目前扩展中webkit/css支持的特性（通用）
 * 《[Wandoujia Supported Specifications]》
+*  从豌豆荚2.20版本开始，支持[Android Intent API]
 
 ### 2.3 开发扩展系统时Content Script的Guideline
 * 页面宽度修改为适应豌豆荚的默认宽度：780px（考虑会有滚动条，建议控制在760px内）
@@ -192,6 +193,7 @@
   [Download Link]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Download%20Link.md
   [MicroData]: https://github.com/wandoulabs/developer-documents/blob/master/Microdata/App%20Microdata.md
   [Wandoujia Supported Specifications]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Wandoujia%20Supported%20Specifications.md
+  [Android Intent API]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/Android%20Intent.md
   [register]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/register.jpg?raw=true
   [settings_1]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_1.jpg?raw=true
   [settings_2]: https://github.com/wandoulabs/developer-documents/blob/master/Doraemon/pictures/settings_2.jpg?raw=true
